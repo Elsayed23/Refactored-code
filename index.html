@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modular HTML and CSS Training</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background: #f0f0f0; line-height: 1.6;">
+  <header style="background-color: #333; color: white; padding: 10px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <h1 style="font-size: 2rem; margin-bottom: 10px;">Company Name</h1>
+      <nav>
+        <ul style="text-align: center;">
+          <li><a href="#home" style="color: white; text-decoration: none; font-size: 1.2rem;">Home</a></li>
+          <li><a href="#services" style="color: white; text-decoration: none; font-size: 1.2rem;">Services</a></li>
+          <li><a href="#about" style="color: white; text-decoration: none; font-size: 1.2rem;">About</a></li>
+          <li><a href="#contact" style="color: white; text-decoration: none; font-size: 1.2rem;">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Home Section -->
+  <section id="home" style="padding: 40px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">Welcome to Our Website</h2>
+      <p style="font-size: 1.1rem; line-height: 1.8;">This is the home section.</p>
+    </div>
+  </section>
+  <!-- Services Section -->
+  <section id="services" style="padding: 40px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">Our Services</h2>
+      <div class="services-grid" style="display: grid; gap: 20px;">
+        <div class="service">
+          <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Web Design</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8;">Beautiful and responsive web designs tailored to your needs.
+          </p>
+        </div>
+        <div class="service">
+          <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Development</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8;">Full-stack web development solutions using modern
+            technologies.
+          </p>
+        </div>
+        <div class="service">
+          <h3 style="font-size: 1.5rem; margin-bottom: 10px;">SEO Optimization</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8;">Boost your online presence with our SEO strategies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" style="padding: 40px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">About Us</h2>
+      <p style="font-size: 1.1rem; line-height: 1.8;">Learn about our team and our mission.</p>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section" style="padding: 40px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">Contact Us</h2>
+      <form id="contactForm" style="margin: 0 auto; padding: 20px; text-align: center" class="contact-form">
+        <label style="display: block; margin-bottom: 5px;" for="name">Name:</label>
+        <input style="width: 100%; padding: 8px;" type="text" id="name" name="name" required />
+        <label style="display: block; margin-bottom: 5px;" for="email">Email:</label>
+        <input style="width: 100%; padding: 8px;" type="email" id="email" name="email" required />
+        <label style="display: block; margin-bottom: 5px;" for="message">Message:</label>
+        <textarea style="width: 100%; padding: 8px;" id="message" name="message" rows="4" required></textarea>
+        <button type="submit" style="color: white; cursor: pointer; border: none; ">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer
+    style="background-color: #333; color: white; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
